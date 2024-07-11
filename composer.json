@@ -1,0 +1,34 @@
+{
+  "name": "isvek/plugin",
+  "type": "wordpress-plugin",
+  "description": "WordPress Isvek Plugin",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "vek",
+      "email": "support@isvek.ru",
+      "homepage": "https://isvek.ru",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "ext-json": "*",
+    "rappasoft/laravel-helpers": "v2.1.0",
+    "longman/telegram-bot": "^0.82.0",
+    "wp-cli/wp-cli": "^2.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Isvek\\Plugin\\": "includes"
+    },
+    "files": [
+      "includes/functions.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable"
+}

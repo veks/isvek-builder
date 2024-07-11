@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 3,
+  "name": "isvek-plugin-blocks/contact-forms-builder",
+  "version": "1.0.0",
+  "title": "Конструктор контактных форм",
+  "icon": "grid-view",
+  "category": "isvek-plugin-blocks",
+  "attributes": {
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "fields": {
+      "type": "array",
+      "default": []
+    },
+    "isModal": {
+      "type": "boolean",
+      "default": false
+    },
+    "nameModalButton": {
+      "type": "string",
+      "default": ""
+    },
+    "classNameModalButton": {
+      "type": "string",
+      "default": ""
+    },
+    "nameButton": {
+      "type": "string",
+      "default": ""
+    },
+    "classNameButton": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

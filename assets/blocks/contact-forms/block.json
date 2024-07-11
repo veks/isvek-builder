@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 3,
+  "name": "isvek-plugin-blocks/contact-forms",
+  "version": "1.0.0",
+  "title": "Контактные формы",
+  "icon": "feedback",
+  "category": "isvek-plugin-blocks",
+  "attributes": {
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "id": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

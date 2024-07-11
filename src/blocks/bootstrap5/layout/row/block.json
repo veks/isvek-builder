@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "isvek-plugin-blocks/row",
+  "version": "1.0.0",
+  "title": "Ряд",
+  "icon": "table-row-after",
+  "category": "isvek-plugin-blocks",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "classNameRow": {
+      "type": "string",
+      "default": "row"
+    }
+  }
+}

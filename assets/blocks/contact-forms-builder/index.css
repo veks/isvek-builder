@@ -1,0 +1,57 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/contact-forms-builder/editor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.contact-forms-builder .contact-forms-plugin-title {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border: 2px dashed #dbdbdb;
+}
+.contact-forms-builder .contact-forms-plugin-list-group .contact-forms-plugin-list-group-item.sortable-chosen > .contact-forms-plugin-block {
+  background-color: #888888 !important;
+}
+.contact-forms-builder .contact-forms-plugin-list-group .contact-forms-plugin-list-group-item .contact-forms-plugin-block {
+  background-color: #dbdbdb;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  position: relative;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+.contact-forms-builder .contact-forms-plugin-list-group .contact-forms-plugin-list-group-item .contact-forms-plugin-handle {
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+  cursor: move !important;
+}
+.contact-forms-builder .contact-forms-plugin-list-group .contact-forms-plugin-list-group-item .contact-forms-plugin-button-group button {
+  margin: 0.2rem;
+}
+.contact-forms-builder .contact-forms-plugin-list-group .contact-forms-plugin-list-group-item .contact-forms-plugin-editor {
+  background-color: #e7e7e7;
+  display: none;
+  visibility: hidden;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.contact-forms-builder .contact-forms-plugin-list-group .contact-forms-plugin-list-group-item .contact-forms-plugin-editor.show {
+  display: block !important;
+  visibility: visible !important;
+}
+
+pre {
+  background-color: #eaeaea;
+  padding: 0.5rem;
+  font-size: 0.775rem;
+  width: 100%;
+  display: block;
+  white-space: pre;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=index.css.map*/

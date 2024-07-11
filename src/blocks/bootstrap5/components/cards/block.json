@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "isvek-plugin-blocks/cards",
+  "version": "1.0.0",
+  "title": "Карточка",
+  "icon": "box",
+  "category": "isvek-plugin-blocks",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "classNameCard": {
+      "type": "string",
+      "default": "card"
+    },
+    "classNameBody": {
+      "type": "string",
+      "default": "card-body"
+    },
+    "classNameMargin": {
+      "type": "array",
+      "default": []
+    },
+    "titleShow": {
+      "type": "boolean",
+      "default": false
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

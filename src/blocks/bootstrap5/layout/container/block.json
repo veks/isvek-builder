@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "isvek-plugin-blocks/container",
+  "version": "1.0.0",
+  "title": "Контейнер",
+  "category": "isvek-plugin-blocks",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "classNameContainer": {
+      "type": "string",
+      "default": "container"
+    }
+  }
+}

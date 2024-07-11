@@ -1,0 +1,31 @@
+#poststuff .inside h2 {
+  font-size: 18px;
+  padding: 8px 0;
+  border-bottom: 1px solid #E6E6E6;
+  font-weight: 500;
+}
+
+.file-delete-button,
+.image-delete-button {
+  color: #d63638 !important;
+  border: 1px solid #d63638 !important;
+}
+
+.file-delete-button:focus, .file-delete-button:hover, .file-delete-button:active,
+.image-delete-button:focus,
+.image-delete-button:hover,
+.image-delete-button:active {
+  color: #b92c2d !important;
+  border: 1px solid #b92c2d !important;
+  box-shadow: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+/*# sourceMappingURL=settings.css.map */

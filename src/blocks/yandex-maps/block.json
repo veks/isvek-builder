@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "isvek-plugin-blocks/yandex-maps",
+  "version": "1.0.0",
+  "title": "Яндекс карты",
+  "icon": "location-alt",
+  "category": "isvek-plugin-blocks",
+  "attributes": {
+    "blockId": {
+      "type": "string",
+      "default": ""
+    },
+    "coords": {
+      "type": "array",
+      "default": [
+        55.75354576483724,
+        37.62163622222895
+      ]
+    },
+    "zoom": {
+      "type": "number",
+      "default": 10
+    },
+    "width": {
+      "type": "number",
+      "default": 100
+    },
+    "height": {
+      "type": "number",
+      "default": 400
+    },
+    "placemarkColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "substituteAddress": {
+      "type": "boolean",
+      "default": true
+    },
+    "address": {
+      "type": "string",
+      "default": "Россия, Москва, Красная площадь"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": [
+    "file:./style.css",
+    "isvek-plugin-blocks-yandex-maps"
+  ]
+}
